@@ -1,10 +1,17 @@
-# Getting Started with Create React App
+# Mel's Learning Garden
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Mel's Learning Garden is a fullstack application for the non-profit, Mel's Learning Garden, which is dedicated to teaching skills, educating, and providing positive activities for children and teens. Parents and youth/children can come to the site to learn about the classes that are offered, send inquiries, register for classes, and subscribte to the mailing list.
 
-## Available Scripts
+## Tech Stack
 
-In the project directory, you can run:
+- React
+- Javascript, CSS, HTML5
+- PostgreSQL
+- Express
+- Axios
+- Tailwind CSS
+
+## Tech Stack
 
 ### `npm start`
 
