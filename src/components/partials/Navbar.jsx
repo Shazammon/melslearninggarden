@@ -4,7 +4,7 @@ export default function Navbar() {
     const navBarOptions = [
         {
             'navBarName': 'Classes', 
-            'linkName': 'class'
+            'linkName': 'classes'
         },
         {
             'navBarName': 'Schedule',
