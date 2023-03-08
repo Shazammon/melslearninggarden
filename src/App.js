@@ -13,8 +13,6 @@ function App() {
             element={<Home />}
         />
       </Routes>
-      <Home />
-
     </Router>
   );
 }
