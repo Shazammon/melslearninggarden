@@ -22,8 +22,6 @@ export default function Navbar() {
             'navBarName': 'Make a Payment',
             'linkName':'payment'
         },
-
-        //  'Tuition Cost', 'About Me', 'Make a Payment'
     ]
 
     return (
