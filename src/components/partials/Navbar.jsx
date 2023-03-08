@@ -9,7 +9,20 @@ export default function Navbar() {
         {
             'navBarName': 'Schedule',
             'linkName':'schedule'
-        }
+        },
+        {
+            'navBarName': 'Tuition Cost',
+            'linkName':'tuition'
+        },
+        {
+            'navBarName': 'About Me',
+            'linkName':'about'
+        },
+        {
+            'navBarName': 'Make a Payment',
+            'linkName':'payment'
+        },
+
         //  'Tuition Cost', 'About Me', 'Make a Payment'
     ]
 
