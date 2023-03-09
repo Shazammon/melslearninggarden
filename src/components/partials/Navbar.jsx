@@ -27,15 +27,21 @@ export default function Navbar() {
     ]
 
     return (
-      <div class="bg-gray-100 font-sans w-full min-h-screen m-0">
+      <div class="bg-gray-100 font-sans w-full m-0">
         <div class="bg-white shadow">
           <div class="container mx-auto px-4">
             <div class="flex items-center justify-between py-4">
-              <div>
-                <Link
-                    to="/"
-                >
-                    Mel's Learning Garden
+              <div class="hidden sm:flex sm:items-center">
+                <Link to="/">
+                  <div className="flex items-center">
+                    <img 
+                        className="w-10 h-10" 
+                        src="/logo.png" 
+                    />
+                    <p 
+                    className="text-gray-800 text-sm font-semibold hover:text-green-600 mr-4"
+                    >Mel's Learning Garden</p>
+                  </div>
                 </Link>
               </div>
 
