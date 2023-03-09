@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 
-// tailwind styling for this comes from: https://tailwindcomponents.com/component/navbar
+// tailwind styling for this comes from: https://tailwindcomponents.com/component/navbar from: https://flowbite.com/docs/components/navbar/
 
 export default function Navbar() {
     const navBarOptions = [
@@ -27,87 +27,75 @@ export default function Navbar() {
     ]
 
     return (
-      <div class="bg-gray-100 font-sans w-full m-0">
-        <div class="bg-white shadow">
-          <div class="container mx-auto px-4">
-            <div class="flex items-center justify-between py-4">
-              <div class="hidden sm:flex sm:items-center">
-                <Link to="/">
-                  <div className="flex items-center">
-                    <img 
-                        className="w-10 h-10" 
-                        src="/logo.png" 
-                    />
-                    <p 
-                    className="text-gray-800 text-sm font-semibold hover:text-green-600 mr-4"
-                    >Mel's Learning Garden</p>
-                  </div>
-                </Link>
-              </div>
-
-              <div class="hidden sm:flex sm:items-center">
-                {navBarOptions.map((option) => {
-                  return (
-                    <Link
-                      className="text-gray-800 text-sm font-semibold hover:text-green-600 mr-4"
-                      to={option.linkName}
-                    >
-                      {option.navBarName}
-                    </Link>
-                  );
-                })}
-              </div>
-
-              <div class="hidden sm:flex sm:items-center">
-                <a
-                  href="#"
-                  class="text-gray-800 text-sm font-semibold hover:text-green-600 mr-4"
-                >
-                  Sign in
-                </a>
-              </div>
-
-              <div class="sm:hidden cursor-pointer">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="w-6 h-6 text-purple-600"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    fill="currentColor"
-                    d="M12.9499909,17 C12.7183558,18.1411202 11.709479,19 10.5,19 C9.29052104,19 8.28164422,18.1411202 8.05000906,17 L3.5,17 C3.22385763,17 3,16.7761424 3,16.5 C3,16.2238576 3.22385763,16 3.5,16 L8.05000906,16 C8.28164422,14.8588798 9.29052104,14 10.5,14 C11.709479,14 12.7183558,14.8588798 12.9499909,16 L20.5,16 C20.7761424,16 21,16.2238576 21,16.5 C21,16.7761424 20.7761424,17 20.5,17 L12.9499909,17 Z M18.9499909,12 C18.7183558,13.1411202 17.709479,14 16.5,14 C15.290521,14 14.2816442,13.1411202 14.0500091,12 L3.5,12 C3.22385763,12 3,11.7761424 3,11.5 C3,11.2238576 3.22385763,11 3.5,11 L14.0500091,11 C14.2816442,9.85887984 15.290521,9 16.5,9 C17.709479,9 18.7183558,9.85887984 18.9499909,11 L20.5,11 C20.7761424,11 21,11.2238576 21,11.5 C21,11.7761424 20.7761424,12 20.5,12 L18.9499909,12 Z M9.94999094,7 C9.71835578,8.14112016 8.70947896,9 7.5,9 C6.29052104,9 5.28164422,8.14112016 5.05000906,7 L3.5,7 C3.22385763,7 3,6.77614237 3,6.5 C3,6.22385763 3.22385763,6 3.5,6 L5.05000906,6 C5.28164422,4.85887984 6.29052104,4 7.5,4 C8.70947896,4 9.71835578,4.85887984 9.94999094,6 L20.5,6 C20.7761424,6 21,6.22385763 21,6.5 C21,6.77614237 20.7761424,7 20.5,7 L9.94999094,7 Z M7.5,8 C8.32842712,8 9,7.32842712 9,6.5 C9,5.67157288 8.32842712,5 7.5,5 C6.67157288,5 6,5.67157288 6,6.5 C6,7.32842712 6.67157288,8 7.5,8 Z M16.5,13 C17.3284271,13 18,12.3284271 18,11.5 C18,10.6715729 17.3284271,10 16.5,10 C15.6715729,10 15,10.6715729 15,11.5 C15,12.3284271 15.6715729,13 16.5,13 Z M10.5,18 C11.3284271,18 12,17.3284271 12,16.5 C12,15.6715729 11.3284271,15 10.5,15 C9.67157288,15 9,15.6715729 9,16.5 C9,17.3284271 9.67157288,18 10.5,18 Z"
-                  />
-                </svg>
-              </div>
+      <nav class="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-white-900">
+        <div class="container flex flex-wrap items-center justify-between mx-auto">
+          <Link to="/">
+            <div className="flex items-center">
+              <img
+                className="w-10 h-10"
+                src="/logo.png"
+                alt="Mels Learning Garden Logo"
+              />
+              <span className="self-center text-l font-semibold whitespace-nowrap dark:text-green hover:text-green-600 mr-4">
+                Mel's Learning Garden
+              </span>
             </div>
+          </Link>
 
-            <div class="block sm:hidden bg-white border-t-2 py-2">
-              <div class="flex flex-col">
+          <div class="flex md:order-2">
+            <button
+              type="button"
+              class="text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800"
+            >
+              Get started
+            </button>
+            <button
+              data-collapse-toggle="navbar-cta"
+              type="button"
+              class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+              aria-controls="navbar-cta"
+              aria-expanded="false"
+            >
+              <span class="sr-only">Open main menu</span>
+              <svg
+                class="w-6 h-6"
+                aria-hidden="true"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+            </button>
+          </div>
+          <div
+            class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
+            id="navbar-cta"
+          >
+            <ul class="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-white-900 dark:border-gray-700">
                 {navBarOptions.map((option) => {
-                  return (
-                    <Link
-                      className="text-gray-800 text-sm font-semibold hover:text-green-600 mb-1"
-                      to={option.linkName}
-                    >
-                      {option.navBarName}
-                    </Link>
-                  );
+                    return (
+                    <li>
+                        <Link
+                        className="block py-2 pl-3 pr-4 text-gray-800 rounded hover:bg-green-700 md:hover:bg-transparent md:hover:text-green-700 md:p-0 md:dark:hover:text-green-800 dark:text-gray-800 dark:hover:bg-gray-700 dark:hover:text-green-700 md:dark:hover:bg-transparent dark:border-gray-700"
+                        to={option.linkName}
+                        >
+                        {option.navBarName}
+                        </Link>
+                    </li>
+                    );
                 })}
-                <div class="flex justify-between items-center border-t-2 pt-2">
-                  <a
-                    href="#"
-                    class="text-gray-800 text-sm font-semibold hover:text-green-600 mr-4"
-                  >
-                    Sign in
-                  </a>
-                </div>
-              </div>
-            </div>
+            </ul>
           </div>
         </div>
-      </div>
+      </nav>
     );
     }
+ 
     // <nav>
     //     <ul>
     //         <li>
