@@ -10,7 +10,8 @@ export default function Home() {
 
             src='./gardening_preschool.jpg'
             alt='preschooler gardening'
-            style={height:'300px'}
+            max-width='100%'
+            // height='auto'
         />
         <h3>Hands-On Learning & Activities for Kids & Teens</h3>
         <p>
