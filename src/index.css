@@ -18,11 +18,23 @@ code {
 
 .yes {
   max-width: 100%;
-  height: 100%
+  height: 100%;
+  border-radius: 50px;
+  margin: 3rem;
+
 }
 
 .flex-testing {
   display: flex;
+  margin: auto;
+  /* width: 500px; */
+  justify-content: flex-start;
+}
+
+.flex-child {
+  padding: 50px;
+  margin: auto
+  
 }
 
 
