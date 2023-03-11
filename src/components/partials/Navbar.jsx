@@ -13,16 +13,12 @@ export default function Navbar() {
             'linkName':'schedule'
         },
         {
-            'navBarName': 'Tuition Cost',
+            'navBarName': 'Tuition',
             'linkName':'tuition'
         },
         {
             'navBarName': 'About Me',
             'linkName':'about'
-        },
-        {
-            'navBarName': 'Make a Payment',
-            'linkName':'payment'
         },
     ]
 
