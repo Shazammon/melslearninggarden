@@ -37,6 +37,7 @@ export default function Home() {
               <li>
                 <Link>{option}</Link>
                 <Link>{option}</Link>
+                <Link>{option}</Link>
               </li>
             );
           })}
