@@ -16,9 +16,9 @@ export default function Home() {
             <img
             src="./gardening_preschool.jpg"
             alt="preschooler gardening"
-            className="yes"
+            className="img-one"
             />
-            <div className="div-one">
+            <div className="div-two">
                 <h3>Hands-On Learning & Activities for Kids & Teens</h3>
                 <p>
                 From creating beautiful music and reading the best literature, to
