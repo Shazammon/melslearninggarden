@@ -18,7 +18,7 @@ export default function Home() {
             alt="preschooler gardening"
             className="yes"
             />
-            <div>
+            <div className="flex-testing">
                 <h3>Hands-On Learning & Activities for Kids & Teens</h3>
                 <p>
                 From creating beautiful music and reading the best literature, to
@@ -35,8 +35,6 @@ export default function Home() {
           {classOptions.map((option) => {
             return (
               <li>
-                <Link>{option}</Link>
-                <Link>{option}</Link>
                 <Link>{option}</Link>
               </li>
             );
