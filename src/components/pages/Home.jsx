@@ -35,8 +35,9 @@ export default function Home() {
           </div>
         </div>
         <div className="div-three">
-            <h2>Classess Offered</h2>
-
+          <h2 class="mb-4 text-3xl font-extrabold text-gray-900 dark:text-white md:text-4xl lg:text-5xl header-one">
+            Classess Offered
+          </h2>
         </div>
         <ul>
           {classOptions.map((option) => {
