@@ -29,6 +29,8 @@ code {
   margin: auto;
   /* width: 500px; */
   justify-content: flex-start;
+  background-color:green;
+  border-radius: 50px;
 }
 
 .flex-child {
