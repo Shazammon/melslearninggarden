@@ -34,7 +34,10 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <h2>Classess Offered</h2>
+        <div>
+            <h2>Classess Offered</h2>
+
+        </div>
         <ul>
           {classOptions.map((option) => {
             return (
