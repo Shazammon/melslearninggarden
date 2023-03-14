@@ -34,7 +34,7 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <div>
+        <div className="div-three">
             <h2>Classess Offered</h2>
 
         </div>
