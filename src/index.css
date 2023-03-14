@@ -24,12 +24,21 @@ code {
 
 }
 
-.flex-testing {
+.div-one {
   display: flex;
   margin: auto;
   /* width: 500px; */
   justify-content: flex-start;
   background-color:green;
+  border-radius: 50px;
+}
+
+.div-two {
+  display: flex;
+  margin: auto;
+  /* width: 500px; */
+  justify-content: flex-start;
+  background-color:rgb(70, 121, 70);
   border-radius: 50px;
 }
 

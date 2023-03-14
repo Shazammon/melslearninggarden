@@ -6,7 +6,7 @@ export default function Home() {
     return (
       <>
         <p>Welcome to Mel's Learning Garden</p>
-        <div className="flex-testing">
+        <div className="div-one">
           {/* <div className="flex-child">
             <div>Hiiiiii</div>
             </div>
@@ -18,7 +18,7 @@ export default function Home() {
             alt="preschooler gardening"
             className="yes"
             />
-            <div className="flex-testing">
+            <div className="div-one">
                 <h3>Hands-On Learning & Activities for Kids & Teens</h3>
                 <p>
                 From creating beautiful music and reading the best literature, to
