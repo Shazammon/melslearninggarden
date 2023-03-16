@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import ClassSmall from "../comps/ClassSmall";
 
 export default function Home() {
     const classOptions = ['Cooking', 'Gardening']
@@ -48,6 +49,8 @@ export default function Home() {
             );
           })}
         </ul>
+        <ClassSmall />
+        <hey></hey>
       </>
     );
 }
