@@ -4,14 +4,19 @@ export default function ClassSmall() {
             'id': 1,
             'name': 'Cooking',
             'nav_name': 'cooking',
-            'tagline': 'Cooking',
-            'description':'description here'
+            'tagline': 'Take your child\'s creativity to the max in our children\'s cooking classes!',
+            'description':'Learn culinary skills and the basics of balanced nutrition while cooking up a storm, often using fresh, homegrown fruits and vegetables. (Don\'t worry! We will make plenty of goodies too!) Sign up now for a culinary adventure they will never forget!',
+            'day': 'Thursdays',
+            'schedule_elementary': '4:15pm',
+            'schedule_teens': '5:30pm',
+            'cost': '$60',
+            'class_photos': []
         }
     ]
 
     return (
         <>
-            <div></div>
+            <div>{classData.name}</div>
         </>
     )
 }
