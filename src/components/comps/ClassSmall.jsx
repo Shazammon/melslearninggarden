@@ -17,6 +17,8 @@ export default function ClassSmall() {
     return (
         <>
             <div>{classData[0].name}</div>
+            <div>{classData[0].tagline}</div>
+            <div>{classData[0].description}</div>
         </>
     )
 }
