@@ -50,7 +50,7 @@ export default function Home() {
           })}
         </ul>
         <ClassSmall />
-        <hey></hey>
+        
       </>
     );
 }
