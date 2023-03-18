@@ -19,6 +19,8 @@ export default function ClassSmall() {
             <div>{classData[0].name}</div>
             <div>{classData[0].tagline}</div>
             <div>{classData[0].description}</div>
+            <div>{classData[0].day}</div>
+            <div>{classData[0].schedule_elementary}</div>
         </>
     )
 }
