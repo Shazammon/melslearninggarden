@@ -16,7 +16,7 @@ export default function ClassSmall() {
 
     return (
         <>
-            <div>{classData.name}</div>
+            <div>{classData[0].name}</div>
         </>
     )
 }
