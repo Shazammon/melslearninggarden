@@ -25,6 +25,7 @@ export default function ClassSmall() {
             <div>{classData[0].cost}</div>
             <div>{classData[0].class_photos}</div>
             <div>{classData[0].class_photos}</div>
+            <div>{classData[0].class_photos}</div>
         </>
     )
 }
