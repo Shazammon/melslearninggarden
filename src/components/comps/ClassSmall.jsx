@@ -26,31 +26,7 @@ export default function ClassSmall() {
             <div>{classData[0].schedule_teens}</div>
             <div>{classData[0].cost}</div>
             <div>{classData[0].class_photos}</div>
-            <div>{classData[0].schedule_teens}</div>
-            <div>{classData[0].cost}</div>
-            <div>{classData[0].class_photos}</div>
-            <div>{classData[0].schedule_elementary}</div>
-            <div>{classData[0].schedule_teens}</div>
-            <div>{classData[0].cost}</div>
-            <div>{classData[0].class_photos}</div>
-            <div>{classData[0].schedule_teens}</div>
-            <div>{classData[0].cost}</div>
-            <div>{classData[0].cost}</div>
-            <div>{classData[0].class_photos}</div>
-            <div>{classData[0].schedule_teens}</div>
-            <div>{classData[0].cost}</div>
-            <div>{classData[0].schedule_teens}</div>
-            <div>{classData[0].cost}</div>
-            <div>{classData[0].cost}</div>
-            <div>{classData[0].class_photos}</div>
-            <div>{classData[0].schedule_teens}</div>
-            <div>{classData[0].cost}</div>
-            <div>{classData[0].schedule_teens}</div>
-            <div>{classData[0].cost}</div>
-            <div>{classData[0].cost}</div>
-            <div>{classData[0].class_photos}</div>
-            <div>{classData[0].schedule_teens}</div>
-            <div>{classData[0].cost}</div>
+
 
 
         </>
